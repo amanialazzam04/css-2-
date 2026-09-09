@@ -1,0 +1,17 @@
+
+body {
+    margin: 10px;
+}
+
+.text {
+    width: 80%;
+}
+
+.fixed-image {
+    position: fixed;
+    right: 400px;
+    top: 70px;
+    width: 110px;
+    height: 350px;
+    border: 1px solid gray;
+}

@@ -1,0 +1,52 @@
+
+.static-container {
+display: flex;/* هاي الخاصيه عشان البوكسات يظهروا جنب بعض*/
+}
+.static-container div{
+width: 100px;
+height: 100px;
+background-color: red;
+ border: 2px dotted black;
+
+
+}
+
+.static-container .green{
+background-color: green ;
+
+}
+
+.relative-container {
+    display: flex;
+}
+.relative-container div{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+     border: 2px dotted black;
+
+}
+
+.relative-container .green {
+    background-color: green;
+    position: relative;
+    top: 30px;
+}
+
+.absolute-container {
+
+    display: flex;
+    position: relative;
+}
+.absolute-container div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px dotted black;
+}
+.absolute-container .green{
+    background-color: green;
+    position: absolute;
+    top : 30px;
+}
+
