@@ -1,7 +1,7 @@
 
 .container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap; /*CSS بتحدد هل العناصر داخل الـ Flex Container تنزل لسطر جديد لما ما يعود في مساحة كافية*/
     border: 7px solid #e0a900;
 }
 
@@ -28,7 +28,7 @@
     background-color: #9b59b6;
 }
 
-.container div:nth-child(4) {
+.container div:nth-child(4) { /*عشان احدد لون كل بوكس { child}*/
     background-color: #34495e;
 }
 

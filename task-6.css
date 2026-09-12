@@ -1,6 +1,6 @@
 
 body {
-    margin: 10px;
+    margin: 10px; /*بعمل مسافة 10px حول محتوى الصفحة من الخارج */
 }
 
 .text {
@@ -9,7 +9,7 @@ body {
 
 .fixed-image {
     position: fixed;
-    right: 400px;
+    right: 150px;
     top: 70px;
     width: 110px;
     height: 350px;
